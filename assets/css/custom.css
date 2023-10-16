@@ -1,0 +1,135 @@
+/* Estilos para la página principal de DressRent */
+
+/* Estilos para el fondo y el color de fuente */
+body {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #333333; /* Texto principal gris oscuro */
+}
+
+/* Estilos para el encabezado */
+.navbar {
+  background-color: #ffffff; /* Fondo blanco */
+}
+
+.navbar-brand {
+  color: #ff66b2; /* Título DressRent en rosa pastel */
+}
+
+/* Estilos para los botones y enlaces */
+.btn-success {
+  background-color: #ff66b2; /* Fondo rosa pastel para botones de éxito */
+  border-color: #ff66b2; /* Borde rosa pastel para botones de éxito */
+  color: #ffffff; /* Texto blanco para botones de éxito */
+}
+
+.navbar-nav .nav-link {
+  color: #333333; /* Texto gris oscuro para enlaces de navegación */
+}
+
+/* Estilos para los íconos */
+.navbar-toggler-icon {
+  background-color: #ff66b2; /* Icono de hamburguesa rosa pastel */
+}
+
+/* Estilos para los títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #ff66b2; /* Títulos en rosa pastel */
+}
+
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #ff66b2; /* Flechas del carrusel en rosa pastel */
+}
+
+/* Estilos para los enlaces de redes sociales */
+.footer-icons a {
+  color: #ff66b2; /* Iconos de redes sociales en rosa pastel */
+}
+
+/* Estilos para el fondo del pie de página */
+#tempaltemo_footer {
+  background-color: #333333; /* Fondo gris oscuro para el pie de página */
+}
+
+/* Estilos para el color de fuente del pie de página */
+#tempaltemo_footer p {
+  color: #ffffff; /* Texto blanco en el pie de página */
+}
+
+/* Estilo para el carrito de compras */
+.modal {
+  width: 800px; /* Ancho aumentado */
+  height: 400px;
+  background: #f9f9f9;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título del carrito */
+.modal h2 {
+  background: #e6e6e6; /* Fondo de color gris claro */
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Estilo para la lista de productos */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilos para los productos en el carrito */
+.producto-info {
+  display: flex;
+  align-items: center;
+  list-style: none; /* Elimina los puntos visibles */
+  padding: 0; /* Elimina el relleno */
+  margin: 10px 0; /* Agrega espacio uniforme verticalmente */
+}
+
+.producto-info ul {
+  list-style: none; /* Elimina los puntos visibles solo en las listas dentro de producto-info */
+}
+
+.producto-info img {
+  width: 60px;
+  height: 60px;
+  margin: 0 60px; /* Agrega espacio uniforme horizontalmente entre la imagen y el nombre */
+}
+
+.producto-info .nombre-producto {
+  margin: 0 60px; /* Agrega espacio uniforme horizontalmente entre el nombre y el precio */
+}
+
+.producto-info .precio-producto {
+  margin: 0 50px; /* Agrega espacio uniforme horizontalmente entre el precio y el botón */
+}
+
+.producto-info .boton-contactar {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 0 50px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+
+/* Estilo para el total del carrito */
+p.total-carrito {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center; /* Centrado */
+  background: #e6e6e6; /* Fondo de color gris claro */
+  padding: 10px;
+}
